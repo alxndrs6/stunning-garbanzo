@@ -32,6 +32,9 @@ ssh -T github@github.com
 #sprawdzenie podpiętego url do lokalnego git
 git remote -v
 
+#podpięcie repo
+git remote add origin git@github.com:[username]/[repo].git
+
 #zmiana podpiętego url do lokalnego git
 git remote set-url origin git@github.com:alxndrs6/[repo name].git
 ```
