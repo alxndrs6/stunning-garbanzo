@@ -28,8 +28,35 @@ git reset
 //reset konkretnego pliku
 git reset [file name]
 
+//sprawdzenie brancha
+git branch --show-current
+
+//dodanie nowego brancha
+git branch [new branch name]
+
+//zmiana nazwy brancha
+git branch -m [renamed branch name]
+
+//utworzenie + przełączenie na nowy branch
+git switch -c [new branch name]
+
+//przełączenie na nowy branch
+git switch [new branch name]
+
+//usunięcie brancha
+git branch -d nazwa-galazi
+
 //commit
 git commit -m "commit name"
+
+//pull
+git pull origin main --allow-unrelated-histories
+
+//merge priv
+git rebase main
+
+//merge public
+git merge main
 
 //push
 git push -u origin main
