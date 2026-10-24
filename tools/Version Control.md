@@ -32,9 +32,6 @@ ssh -T github@github.com
 #sprawdzenie podpiętego url do lokalnego git
 git remote -v
 
-#klonowanie repo
-git clone git@github.com:[username]/[repo].git
-
 #zainicjowanie repo
 git init
 
@@ -89,43 +86,46 @@ git commit -m "commit name"
 ```
 ## Merge
 ```bash
-//merge priv
+#merge (rekomendowany dla prywatnego repo)
 git rebase main
 
-//merge public
+#merge (rekomendowany dla repo jednocześnie używanego przez wielu userów)
 git merge main
 
-//push
+#push
 git push -u origin main
 ```
 # GitHub
 ## Setup
 ```bash
-#gh install
+#instalacja GitHub CLI
 brew install gh
 
-//gh auth
+#autentyfikacja
 gh auth login
 ```
 ## Pull Requests (PR)
 ```bash
-#gh pr create
+#sprawdzenie diff
+git diff ..[branch name do porównania]
+
+#utworzenie PR
 gh pr create --title "[PR name]" --body "[PR description]"
 
-#gh pr approve
+#approve PR
 gh pr review --approve
 
-#gh pr merge
+#merge PR
 gh pr merge
 ```
 ## Kopiowanie innych repo
 ```bash
-# Używanie HTTPS
+#używanie HTTPS
 git clone https://github.com/ProjectURL
 
-# Używanie SSH (wymaga konfiguracji klucza SSH)
+#używanie SSH (wymaga konfiguracji klucza SSH)
 git clone git@github.com:username/repository.git
 
-# Używanie GitHub CLI
+#używanie GitHub CLI
 gh repo clone username/repository
 ```
