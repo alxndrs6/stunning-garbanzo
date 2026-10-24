@@ -12,6 +12,23 @@ cd ..
 # Git
 ## Setup
 ```bash
+#sprawdzenie aktualnej wersji
+git --version
+
+#wskazanie username/mail do podpisu
+git config --global user.name [name]
+git config --global user.email [mail]
+
+#sprawdzenie klucza ssh
+ls al ~/.ssh
+
+#wygenerowanie i skopiowanie nowego kluczu ssh
+ssh-keygen -t ed25519 -C "mail"
+pbcopy <~/.ssh/id_ed25519.pub
+
+#sprawdzenie połączenia z kluczem ssh
+ssh -T github@github.com
+
 #sprawdzenie podpiętego url do lokalnego git
 git remote -v
 
