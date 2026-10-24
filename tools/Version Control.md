@@ -106,8 +106,17 @@ gh auth login
 ```
 ## Pull Requests (PR)
 ```bash
+#lista PR
+gh pr list
+
+#pobranie PR do osobnego brancha
+gh pr checkout [numer PR]
+
 #sprawdzenie diff
 git diff ..[branch name do porównania]
+
+#usuwanie brancha po CR
+gh branch -D [branch name]
 
 #utworzenie PR
 gh pr create --title "[PR name]" --body "[PR description]"
