@@ -44,14 +44,6 @@ git remote add origin git@github.com:[username]/[repo].git
 #zmiana podpiętego url do lokalnego git
 git remote set-url origin git@github.com:[username]/[repo name].git
 ```
-## Zarządzanie repo
-```bash
-#utworzenie repo z folderu
-git init
-
-#sprawdzenie statusu
-git status
-```
 ## Zarządzie branachami
 ```bash
 #sprawdzenie brancha
@@ -74,6 +66,9 @@ git branch -d [branch name]
 ```
 ## Publikowanie zmian
 ```bash
+#sprawdzenie statusu
+git status
+
 #pull bieżącej wersji
 git pull origin main --allow-unrelated-histories
 
