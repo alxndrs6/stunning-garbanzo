@@ -32,7 +32,13 @@ ssh -T github@github.com
 #sprawdzenie podpiętego url do lokalnego git
 git remote -v
 
-#podpięcie repo
+#klonowanie repo
+git clone git@github.com:[username]/[repo].git
+
+#połączenie otwartego folderu z repo
+git init
+
+#podpięcie folderu do pustego repo
 git remote add origin git@github.com:[username]/[repo].git
 
 #zmiana podpiętego url do lokalnego git
