@@ -22,7 +22,7 @@ git config --global user.email [mail]
 #sprawdzenie klucza ssh
 ls al ~/.ssh
 
-#wygenerowanie i skopiowanie nowego kluczu ssh
+#wygenerowanie i skopiowanie nowego klucza ssh
 ssh-keygen -t ed25519 -C "mail"
 pbcopy <~/.ssh/id_ed25519.pub
 
