@@ -35,14 +35,14 @@ git remote -v
 #klonowanie repo
 git clone git@github.com:[username]/[repo].git
 
-#połączenie otwartego folderu z repo
+#zainicjowanie repo
 git init
 
 #podpięcie folderu do pustego repo
 git remote add origin git@github.com:[username]/[repo].git
 
 #zmiana podpiętego url do lokalnego git
-git remote set-url origin git@github.com:alxndrs6/[repo name].git
+git remote set-url origin git@github.com:[username]/[repo name].git
 ```
 ## Zarządzanie repo
 ```bash
