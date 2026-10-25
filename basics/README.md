@@ -1,5 +1,5 @@
 # Released notes
-[basics/2-js-basics/1-data-types]()
+[basics/2-js-basics/1-data-types](https://github.com/alxndrs6/stunning-garbanzo/blob/main/basics/README.md#1-data-types)
 
 # 1-data-types
 ## Zmienne
