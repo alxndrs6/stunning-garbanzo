@@ -1,5 +1,6 @@
 # Links
-[GitHub Pages](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-code)
+[GitHub Pages](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-code) <br>
+[Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/github-actions-auto-update/README.md)
 # Syntax
 ## Basics
 | Style |	Syntax | Keyboard shortcut |	Example |	Output |
