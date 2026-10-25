@@ -113,7 +113,7 @@ gh pr list
 gh pr checkout [numer PR]
 
 #sprawdzenie diff
-git diff ..[branch name do porównania]
+git diff ..[branch name to compare]
 
 #usuwanie brancha po CR
 gh branch -D [branch name]
