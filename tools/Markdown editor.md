@@ -57,6 +57,19 @@
 | Text | Text |
 | Text | Text |
 ```
+## Cytowanie
+### Cytat standardowy
+> Cytat
+```md
+> Cytat
+```
+### Cytat zagnieżdżony
+> Cytat standardowy
+>> Cytat zagnieżdżony
+```md
+> Cytat standardowy
+>> Cytat zagnieżdżony
+```
 ## Alerts
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
@@ -87,4 +100,43 @@
 ```md
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
+```
+## Linkowanie
+Text context [Markdown editor](https://github.com/alxndrs6/stunning-garbanzo/edit/main/tools/Markdown%20editor.md))
+## Listy
+### Lista standardowa
+- Text1
+* Text2
++ Text3
+```md
+- Text1
+* Text2
++ Text3
+```
+### Lista numerowana
+1. Text1
+2. Text2
+3. Text3
+```md
+1. Text1
+2. Text2
+3. Text3
+```
+### Lista zagnieżdżona
+1. First list item
+   - First nested list item
+     - Second nested list item
+```md
+1. First list item
+   - First nested list item
+     - Second nested list item
+```
+### Lista zadań
+- [x] Text1
+- [ ] Text2
+- [ ] Text3
+```md
+- [x] Text1
+- [ ] Text2
+- [ ] Text3
 ```
