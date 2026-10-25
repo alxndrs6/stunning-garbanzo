@@ -1,40 +1,44 @@
-# Zmienne
-## Deklaracja zmiennej
+# Released notes
+[basics/2-js-basics/1-data-types]()
+
+# 1-data-types
+## Zmienne
+### Deklaracja zmiennej
 ```js
 let myVariable = {
      a: 'text1',
      b: 'text2',
 };
 ```
-## Aktualizowanie zmiennej
-### Zastępowanie elementu zmiennej
+### Aktualizowanie zmiennej
+#### Zastępowanie elementu zmiennej
 ```js
 myVariable.a = 'new text1';
 ```
-### Dodanie kolejnego elementu do zmiennej
+#### Dodanie kolejnego elementu do zmiennej
 ```js
 myVariable.c = 'text3';
 ```
-### Zastępowanie całej zmiennej
+#### Zastępowanie całej zmiennej
 ```js
 myVariable = {
     a1: 'text4'
 };
 ```
-# Stałe
-## Deklaracja stałej
+## Stałe
+### Deklaracja stałej
 ```js
 const myConstant = {
     d: 'text5',
     e: 'text6'
 };
 ```
-## Aktualizacja stałej
+### Aktualizacja stałej
 Nie można zastąpić całej stałej, ale można zmieniać jej elementy
 ```js
 myConstant.d = 'new text5';
 ```
-# Operacje na liczbach
+## Operacje na liczbach
 | Symbol |	Opis |	Przykład |
 | :---: | --- | --- |
 | ```+``` |	Dodawanie: Oblicza sumę dwóch liczb	| ```1 + 2```<br>oczekiwany wynik ```3``` |
@@ -42,8 +46,8 @@ myConstant.d = 'new text5';
 | * |	Mnożenie: Oblicza iloczyn dwóch liczb |	```1 * 2```<br>oczekiwany wynik ```2``` |
 | / |	Dzielenie: Oblicza iloraz dwóch liczb |	```1 / 2```<br>oczekiwany wynik ```0.5``` |
 | % |	Reszta z dzielenia: Oblicza resztę z dzielenia dwóch liczb	| ```1 % 2```<br>oczekiwany wynik ```1``` |
-# Operacje na stringach
-## Standardowe łączenie łańcuchów
+## Operacje na stringach
+### Standardowe łączenie łańcuchów
 ```js
 let myString1 = "Hello";
 let myString2 = "World";
@@ -52,7 +56,7 @@ myString1 + myString2 + "!"; //WitajŚwiecie!
 myString1 + " " + myString2 + "!"; //Witaj Świecie!
 myString1 + ", " + myString2 + "!"; //Witaj, Świecie!
 ```
-## Template literals
+### Template literals
 ```js
 let myString1 = "Hello";
 let myString2 = "World";
