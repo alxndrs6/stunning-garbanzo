@@ -40,3 +40,12 @@ console.log(myConstant);
 | * |	Mnożenie: Oblicza iloczyn dwóch liczb |	```1 * 2```<br>oczekiwany wynik ```2``` |
 | / |	Dzielenie: Oblicza iloraz dwóch liczb |	```1 / 2```<br>oczekiwany wynik ```0.5``` |
 | % |	Reszta z dzielenia: Oblicza resztę z dzielenia dwóch liczb	| ```1 % 2```<br>oczekiwany wynik ```1``` |
+# Operacje na stringach
+```js
+let myString1 = "Hello";
+let myString2 = "World";
+
+myString1 + myString2 + "!"; //WitajŚwiecie!
+myString1 + " " + myString2 + "!"; //Witaj Świecie!
+myString1 + ", " + myString2 + "!"; //Witaj, Świecie!
+```
