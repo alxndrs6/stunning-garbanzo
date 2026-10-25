@@ -12,6 +12,51 @@
 | Subscript |	```<sub> </sub>``` |	None |	```This is a <sub>subscript</sub> text``` |	This is a <sub>subscript</sub> text |
 | Superscript |	```<sup> </sup>```	| None |	```This is a <sup>superscript</sup> text```	| This is a <sup>superscript</sup> text |
 | Underline |	```<ins> </ins>``` |	None	| This is an <ins>underlined</ins> text	| This is an <ins>underlined</ins> text |
+## Table
+### Standardowa tabela
+| Kolumna 1 | Kolumna 2 |
+| --------- | --------- |
+| Text | Text |
+| Text | Text |
+```md
+| Kolumna 1 | Kolumna 2 |
+| - | - |
+| Text | Text |
+| Text | Text |
+```
+### Tabela z wyrównaniem do lewej (default)
+| Kolumna 1 | Kolumna 2 |
+| :--- | :--- |
+| Text | Text |
+| Text | Text |
+```md
+| Kolumna 1 | Kolumna 2 |
+| :--- | :--- |
+| Text | Text |
+| Text | Text |
+```
+### Tabela z wyrównaniem do prawej
+| Kolumna 1 | Kolumna 2 |
+| ---: | ---: |
+| Text | Text |
+| Text | Text |
+```md
+| Kolumna 1 | Kolumna 2 |
+| ---: | ---: |
+| Text | Text |
+| Text | Text |
+```
+### Tabela z wyśrodkowaniem
+| Kolumna 1 | Kolumna 2 |
+| :---: | :---: |
+| Text | Text |
+| Text | Text |
+```md
+| Kolumna 1 | Kolumna 2 |
+| :---: | :---: |
+| Text | Text |
+| Text | Text |
+```
 ## Alerts
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
