@@ -1,33 +1,38 @@
-# Deklaracja zmiennej
+# Zmienne
+## Deklaracja zmiennej
 ```js
 let myVariable = {
      a: 'text1',
      b: 'text2',
 };
-//zastępowanie elementu zmiennej
+```
+## Aktualizowanie zmiennej
+### Zastępowanie elementu zmiennej
+```js
 myVariable.a = 'new text1';
-console.log(myVariable);
-
-//dodanie kolejnego elementu do zmiennej
+```
+### Dodanie kolejnego elementu do zmiennej
+```js
 myVariable.c = 'text3';
-console.log(myVariable);
-
-//zastępowanie całej zmiennej
+```
+### Zastępowanie całej zmiennej
+```js
 myVariable = {
     a1: 'text4'
 };
-console.log(myVariable);
 ```
-# Deklaracja stałej
-```j
+# Stałe
+## Deklaracja stałej
+```js
 const myConstant = {
     d: 'text5',
     e: 'text6'
 };
-
-//nie można zastąpić całej stałej, ale można zmieniać jej elementy
+```
+## Aktualizacja stałej
+Nie można zastąpić całej stałej, ale można zmieniać jej elementy
+```js
 myConstant.d = 'new text5';
-console.log(myConstant);
 ```
 # Operacje na liczbach
 | Symbol |	Opis |	Przykład |
@@ -38,6 +43,7 @@ console.log(myConstant);
 | / |	Dzielenie: Oblicza iloraz dwóch liczb |	```1 / 2```<br>oczekiwany wynik ```0.5``` |
 | % |	Reszta z dzielenia: Oblicza resztę z dzielenia dwóch liczb	| ```1 % 2```<br>oczekiwany wynik ```1``` |
 # Operacje na stringach
+## Standardowe łączenie łańcuchów
 ```js
 let myString1 = "Hello";
 let myString2 = "World";
@@ -46,3 +52,13 @@ myString1 + myString2 + "!"; //WitajŚwiecie!
 myString1 + " " + myString2 + "!"; //Witaj Świecie!
 myString1 + ", " + myString2 + "!"; //Witaj, Świecie!
 ```
+## Template literals
+```js
+let myString1 = "Hello";
+let myString2 = "World";
+
+`${myString1} ${myString2}!` //Witaj, świecie!
+`${myString1}, ${myString2}!` //Witaj, świecie!
+```
+> [!NOTE]
+> Obie metody dają ten sam efekt, ale literały szablonowe zachowują wszystkie spacje i łamanie linii. Literały szablonowe są zazwyczaj preferowane do złożonego budowania łańcuchów, ponieważ są bardziej czytelne i doskonale obsługują wielolinijkowe teksty
