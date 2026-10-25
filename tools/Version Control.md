@@ -1,4 +1,5 @@
 # Terminal
+
 ```bash
 #sprawdzenie gdzie mamy otwarty terminal
 pwd
@@ -9,8 +10,11 @@ cd [folder name]
 #cofnięcie się o krok do tyłu w folderze
 cd ..
 ```
+
 # Git
+
 ## Setup
+
 ```bash
 #sprawdzenie aktualnej wersji
 git --version
@@ -41,7 +45,9 @@ git remote add origin git@github.com:[username]/[repo].git
 #zmiana podpiętego url do lokalnego git
 git remote set-url origin git@github.com:[username]/[repo name].git
 ```
+
 ## Zarządzie branachami
+
 ```bash
 #sprawdzenie brancha
 git branch --show-current
@@ -61,7 +67,9 @@ git switch [branch name]
 #usunięcie brancha
 git branch -d [branch name]
 ```
+
 ## Publikowanie zmian
+
 ```bash
 #sprawdzenie statusu
 git status
@@ -84,7 +92,9 @@ git reset [file name]
 #commit dodanych pików
 git commit -m "commit name"
 ```
+
 ## Merge
+
 ```bash
 #merge (rekomendowany dla prywatnego repo)
 git rebase main
@@ -95,8 +105,11 @@ git merge main
 #push
 git push -u origin main
 ```
+
 # GitHub
+
 ## Setup
+
 ```bash
 #instalacja GitHub CLI
 brew install gh
@@ -104,7 +117,9 @@ brew install gh
 #autentyfikacja
 gh auth login
 ```
+
 ## Pull Requests (PR)
+
 ```bash
 #lista PR
 gh pr list
@@ -127,7 +142,9 @@ gh pr review --approve
 #merge PR
 gh pr merge
 ```
+
 ## Kopiowanie innych repo
+
 ```bash
 #używanie HTTPS
 git clone https://github.com/ProjectURL
