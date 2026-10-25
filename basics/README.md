@@ -1,7 +1,8 @@
 # Released notes
 
 [basics/2-js-basics/1-data-types](https://github.com/alxndrs6/stunning-garbanzo/blob/main/basics/README.md#1-data-types)
-2-functions-methods
+
+[basics/2-js.basics/2-functions-methods](https://github.com/alxndrs6/stunning-garbanzo/blob/main/basics/README.md#2-functions-methods)
 
 # 1-data-types
 
